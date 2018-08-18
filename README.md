@@ -1,6 +1,7 @@
 # babel-plugin-transform-proto-to-assign-robust
 
-[![build status](https://img.shields.io/travis/imcuttle/babel-plugin-transform-proto-to-assign-robust/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/babel-plugin-transform-proto-to-assign-robust)
+<!--[![build status](https://img.shields.io/travis/imcuttle/babel-plugin-transform-proto-to-assign-robust/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/babel-plugin-transform-proto-to-assign-robust)-->
+
 [![NPM version](https://img.shields.io/npm/v/babel-plugin-transform-proto-to-assign-robust.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-transform-proto-to-assign-robust)
 [![NPM Downloads](https://img.shields.io/npm/dm/babel-plugin-transform-proto-to-assign-robust.svg?style=flat-square&maxAge=43200)](https://www.npmjs.com/package/babel-plugin-transform-proto-to-assign-robust)
 
