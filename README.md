@@ -38,7 +38,7 @@ _defaults(bar, foo)
 
 The above transform are worked by `babel-plugin-transform-proto-to-assign`.
 
-However the `_default` function `DO NOT` assign the `Symbol` static value, but `babel-plugin-transform-proto-to-assign-robust` do it!
+However the `_default` function **DO NOT assign the `Symbol` static value**, but `babel-plugin-transform-proto-to-assign-robust` do it!
 
 ## Transform
 - In
