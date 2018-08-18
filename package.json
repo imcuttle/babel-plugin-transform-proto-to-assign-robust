@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-transform-proto-to-assign-robust",
+  "version": "6.0.0",
+  "main": "index.js",
+  "description": "This plugin allows Babel to transform all **proto** assignments to a method that will do a shallow copy of all properties with symbol.",
+  "author": "imcuttle",
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "babel test/source.js -o test/dest.js && node test/dest.js"
+  },
+  "keywords": [
+    "babel-plugin-transform-proto-to-assign-robust"
+  ],
+  "license": "MIT",
+  "repository": "imcuttle/babel-plugin-transform-proto-to-assign-robust",
+  "dependencies": {
+    "babel-template": "^6.26.0",
+    "lodash.pull": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
