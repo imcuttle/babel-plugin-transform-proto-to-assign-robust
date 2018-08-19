@@ -5,7 +5,7 @@
 [![NPM version](https://img.shields.io/npm/v/babel-plugin-transform-proto-to-assign-robust.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-transform-proto-to-assign-robust)
 [![NPM Downloads](https://img.shields.io/npm/dm/babel-plugin-transform-proto-to-assign-robust.svg?style=flat-square&maxAge=43200)](https://www.npmjs.com/package/babel-plugin-transform-proto-to-assign-robust)
 
-This plugin allows Babel to transform all **proto** assignments to a method that will do a shallow copy of all properties with symbol.
+This plugin allows Babel to transform all **proto** assignments to a method that will do a shallow copy of all properties **with symbol**.
 
 Inspired by [`babel-plugin-transform-proto-to-assign`](https://github.com/babel/babel/tree/6.x/packages/babel-plugin-transform-proto-to-assign)
 
